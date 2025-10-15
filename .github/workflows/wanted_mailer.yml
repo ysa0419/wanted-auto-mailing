@@ -1,7 +1,7 @@
 name: Wanted Auto Mailer
 on:
   schedule:
-    - cron: "23 8 * * *"  # 한국시간 17시 23분 (UTC 기준 08시 23분)
+    - cron: "44 8 * * *"  # 한국시간 17시 23분 (UTC 기준 08시 23분)
   workflow_dispatch:      # 수동 실행도 가능
 jobs:
   send:
